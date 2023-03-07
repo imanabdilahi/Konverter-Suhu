@@ -1,0 +1,175 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: radial-gradient(circle, rgba(226,103,214,1) 0%, rgba(21,111,218,1) 100%);;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 48px;
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+	text-shadow:
+	-1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+form {
+	margin: 20px;
+}
+
+label {
+	font-size: 18px;
+	margin-bottom: 5px;
+	padding-right: 10px;
+	font-weight: 600;
+}
+
+input[type=text], select {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+input[type=submit] {
+	background-color: #2a49b1;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	transition-duration: .3s;
+}
+
+#hasilKonversi {
+	font-size: 24px;
+	font-weight: bold;
+	color: #141414;
+	padding-left: 10px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 110px;
+	background-color: #333;
+	text-align: center;
+	color: white;
+	justify-content: center;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #666;
+}
+
+.output {
+	display: flex;
+	background-color: #21b314;
+	border-radius: 5px;
+	padding: 10px;
+	justify-content: center;	
+	align-items: center;
+	width: fit-content;
+	height: fit-content;
+	margin: auto;
+	font-weight: 700;
+	border: 1px solid black;
+}
+
+.iconig{
+	height: 27px;
+	width: auto;
+	justify-content: center;
+	padding: 5px;
+	background-color: white;
+	transition-duration: 0.5s;
+	border: 1px solid white;
+	border-radius: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.iconig:hover{
+	border: 1px solid black;
+}
+
+.links{
+	display: flex;
+	justify-content: center;
+}
+
+.thermo{
+	height: 50px;
+	width: auto;
+}
+
+.thermo:hover {
+	width: 60px;
+	height: auto;
+	animation: spin .5s linear infinite;
+  }
+  
+  @keyframes spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+  
+header h1{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+header h1 {
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	animation: rainbow 3s ease-in-out infinite;
+  }
+  
+  @keyframes rainbow {
+	0% {
+	  text-shadow: 0 0 5px red;
+	}
+	16.67% {
+	  text-shadow: 0 0 5px orange;
+	}
+	33.33% {
+	  text-shadow: 0 0 5px yellow;
+	}
+	50% {
+	  text-shadow: 0 0 5px green;
+	}
+	66.67% {
+	  text-shadow: 0 0 5px blue;
+	}
+	83.33% {
+	  text-shadow: 0 0 5px indigo;
+	}
+	100% {
+	  text-shadow: 0 0 5px violet;
+	}
+  }
